@@ -44,7 +44,9 @@ export default function Footer() {
             {/* Social */}
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.instagram.com/7daysrestra?igsh=ODQ3ODhkeTg3NzNn"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Instagram"
                 className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-burgundy-500 transition-colors"
               >
