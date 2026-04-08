@@ -62,8 +62,10 @@ export default function Header() {
       >
         <div className="container-custom flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-2 group relative h-14 w-32">
-            <Image src="/logo.png" alt="7Days Restra Logo" fill sizes="128px" className="object-contain object-left group-hover:scale-105 transition-transform" priority />
+          <a href="#home" className="flex items-center group">
+            <div className="relative h-12 w-12 md:h-14 md:w-14 rounded-full overflow-hidden border-2 border-burgundy-500/30 shadow-md group-hover:border-burgundy-500 group-hover:shadow-lg transition-all duration-300">
+              <Image src="/logo.png" alt="7Days Restra Logo" fill sizes="56px" className="object-cover group-hover:scale-110 transition-transform duration-300" priority />
+            </div>
           </a>
 
           {/* Desktop links */}

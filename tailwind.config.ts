@@ -45,6 +45,36 @@ module.exports = {
           800: "#1f1609",
           900: "#120d05",
         },
+        teal: {
+          50: "#e6f5f4",
+          100: "#b3e0dd",
+          200: "#80cbc4",
+          300: "#4db6ac",
+          400: "#26a69a",
+          500: "#1a5c5a",
+          600: "#17504e",
+          700: "#134442",
+          800: "#0f3836",
+          900: "#0a2624",
+          950: "#071a19",
+        },
+        gold: {
+          50: "#fdf8eb",
+          100: "#f9edcc",
+          200: "#f3dba0",
+          300: "#e8c468",
+          400: "#d4a843",
+          500: "#c9982e",
+          600: "#b8860b",
+          700: "#9a7209",
+          800: "#7c5c07",
+          900: "#5e4505",
+        },
+        navy: {
+          800: "#0d1b2a",
+          900: "#0a1424",
+          950: "#06101d",
+        },
       },
       fontFamily: {
         heading: ['"Playfair Display"', "serif"],
@@ -52,7 +82,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-gradient":
-          "linear-gradient(135deg, rgba(139,26,43,0.85) 0%, rgba(18,13,5,0.9) 100%)",
+          "linear-gradient(135deg, rgba(10,20,36,0.94) 0%, rgba(13,27,42,0.90) 30%, rgba(26,92,90,0.85) 70%, rgba(10,20,36,0.95) 100%)",
         "section-gradient":
           "linear-gradient(180deg, #fffdf7 0%, #fefaf0 100%)",
         "dark-gradient":

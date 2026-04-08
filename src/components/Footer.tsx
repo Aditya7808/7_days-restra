@@ -31,8 +31,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-white/10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4 relative h-[72px] w-[180px]">
-              <Image src="/logo.png" alt="7Days Restra Logo" fill sizes="180px" className="object-contain object-left" />
+            <div className="flex items-center gap-3 mb-4">
+              <div className="relative h-16 w-16 rounded-full overflow-hidden border-2 border-cream-200/20 shadow-lg flex-shrink-0">
+                <Image src="/logo.png" alt="7Days Restra Logo" fill sizes="64px" className="object-cover" />
+              </div>
+              <span className="font-heading font-bold text-cream-50 text-lg">7Days Restra</span>
             </div>
             <p className="text-cream-200/50 text-sm leading-relaxed mb-4">
               Authentic Chinese & Indian cuisine in the heart of Gorakhpur.
