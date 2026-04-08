@@ -119,7 +119,16 @@ export default function Header() {
                   <a
                     key={link.name}
                     href={link.href}
-                    onClick={() => setIsOpen(false)}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setIsOpen(false);
+                      setTimeout(() => {
+                        const target = document.querySelector(link.href);
+                        if (target) {
+                          target.scrollIntoView({ behavior: "smooth" });
+                        }
+                      }, 300);
+                    }}
                     className="text-sm font-medium text-white/80 hover:text-gold-300 py-2 border-b border-white/10 last:border-0 transition-colors"
                   >
                     {link.name}
